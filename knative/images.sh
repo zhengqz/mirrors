@@ -2,6 +2,7 @@
 #
 
 componments=(queue activator autoscaler controller domain-mapping domain-mapping-webhook webhook)
+componments=(eventing-webhook eventing-controller eventing-mtping eventing-apiserveer_receive_adapter)
 
 for c in ${componments[@]}
 do
